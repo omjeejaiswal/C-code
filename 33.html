@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>before and after pseduo selector</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        .navigation{
+            font-size: 20px;
+            display: flex;
+        }
+        li{
+            list-style: none;
+            padding: 34px 23px;
+        }
+        section{
+            height: 344px;
+            justify-content: center;
+            /* border: 2px solid red; */
+            margin: 3px 23px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            font-size: 4rem;
+    }
+    p{
+        text-align: center;
+    }
+        
+        /* section::after{
+            content: "This is a content";
+        } */
+
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item"> Home </li>
+                <li class="item"> About </li>
+                <li class="item"> Services </li>
+                <li class="item">Contact Us </li>
+            </ul>
+        </nav>
+        <section>
+            <h1> Welcome to codig world </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestiae atque dolor ipsa laborum
+                    quam tempore, blanditiis veniam quisquam libero alias voluptate totam eum aperiam sit maxime
+                    inventore maiores nostrum sed doloribus illo qui cum fugiat eaque. Nulla, blanditiis quos?</p>       
+        </section>
+    </header>
+    <!-- hr for line  -->
+    <hr>
+</body>
+
+</html>

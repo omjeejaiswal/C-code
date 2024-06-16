@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+    <style>
+        h1 {
+            background-color: brown;
+            color: black;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* div p { 
+            color: pink;
+            background-color: black;
+            font-weight: bold;
+
+        }  */
+ 
+        /* if p is contained by any i which is contained by div  */
+        /* div li p { 
+            color: pink;
+            background-color: black;
+            font-weight: bold;
+
+        }  */
+
+        /* if p is right inslide div then this CSS will be applied */
+         /* div > p{
+            color: pink;
+            background-color: black;
+            font-weight: bold;
+
+        } */
+
+        /* is p is right after i.e p is the next sibling of div  */
+        div +p{
+            color: white;
+            background-color: rgb(117, 232, 230);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is more on selectors</h1>
+
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item">
+                    <p> this is another paragraph in li </p>
+                </li>
+                <li>This will not get affected</li>
+                <p>This is a para inside ul</p>
+            </ul>
+            <p> This is paragraph </p>
+        </div>
+        <p> This is another paragraph </p>
+    </div>
+    <p> this is outer most paragraph </p>
+</body>
+
+</html>
