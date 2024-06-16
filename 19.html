@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>height, width, border and background</title>
+    <style>
+        #firstPara {
+            background-color: beige;
+            height: 100px;
+            width: 450px;
+            border-width: 4px;
+
+            /* border-color: blue;
+            border-style: solid;
+            font-style: italic;            */
+            /* upper wala 3 line ko ek eska likha  */
+            border: 4px solid green;
+
+            /*jo wo circle sa bana aa raha hai wo border-radius ki wajase hai.*/
+            border-radius: 130px;
+        }
+
+        #secondPara {
+            background-color: rgb(124, 181, 124);
+            height: 100px;
+            width: 450px;
+            border-top: 2px solid violet;
+            border-right: 2px solid blue;
+            border-bottom: 2px solid yellow;
+            border-left: 2px solid red;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 48x;
+            border-bottom-right-radius: 14px;
+            border-bottom-left-radius: 8px;
+        }
+
+        #thirdPara {
+            height: 100px;
+            width: 455px;
+            background-image: url('');
+            /*for url image*/
+            border: 2px solid red;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>this is heading</h3>
+    <p id="firstPara">this is a pargraph</p>
+
+    <h3>this is second heading</h3>
+    <p id="secondPara">this is my second pargraph</p>
+
+    <h3>this is third heading</h3>
+    <p id="thirdPara">this is my third pargraph</p>
+</body>
+
+</html>

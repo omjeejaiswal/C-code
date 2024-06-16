@@ -1,0 +1,8 @@
+
+p{
+    color:red;
+    /* !important ka matlba ha ki all over mai change ho jaya ga */
+    background-color: aqua !important;
+    
+    
+}

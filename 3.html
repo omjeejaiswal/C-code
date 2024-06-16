@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>This is html forms tutorials</h2>
+    <form action="backend.php">
+        <!--label used for agar mai Name pe click karunga to apna aap box select ho jaya ga-->
+        <label for="name"> Name </label>
+        <div>
+             <input type="text" name="MyName" id="name">
+        </div>
+        <br>
+        <div>
+            Role <input type="text" name="MyRole">
+        </div>
+        <br>
+        <div>
+            email <input type="email" name="" id="">
+        </div>
+
+        <br>
+        <div>
+            <!-- input:date for this-->
+            date <input type="date" name="myDate">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            are you eligible?: <input type="checkbox" name="myEligibility">
+        </div>
+        <br>
+        <div>
+            <!-- for always tick use checked-->
+            are you eligible?: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender" id="">
+        </div>
+        <br>
+        <div>
+            <!--textarea fpr this-->
+            write aboust yourself: <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car"> Car </label>
+            <select name="myCar" id="car"> 
+                <option value="ind"> Indica </option>
+                <option value="swf"> Swift </option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="car"> Car </label>
+            <select name="myCar" id="car"> 
+                <!--for by default use selected -->
+                <option value="ind" > Indica </option>
+                <option value="swf" selected> Swift </option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <!-- input:sumbit for this-->
+            <input type="submit" value="Sumbit Now">
+            <!-- input:reset for this -->
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
