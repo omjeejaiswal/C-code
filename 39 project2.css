@@ -1,0 +1,252 @@
+/* CSS Reset  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59;
+
+}
+
+/* Navigation Bar */
+#navbar{
+    
+    display: flex;
+    align-items: center;
+     position: relative;
+     /* position: absolute; */
+    
+}
+
+/* Navigation Bar: Logo and Image */
+#logo {
+    
+    margin: 10px 20px;
+
+}
+#logo img {
+    height: 59px;
+    margin: 3px 6px;
+}
+/* Navigation Bar: List styling */
+ 
+
+#navbar ul{
+    display: flex;
+    font-family: 'Gotu', sans-serif;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+#navbar ul li{
+    color: white;
+    list-style: none;
+    font-size: 1.3rem;
+    /* display: flex; */
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px; 
+    text-decoration: none;
+   
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+
+   
+}
+
+/* home Section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    /* background-color: rgb(193, 37, 37); */
+    background: url('images/bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 80%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Gotu', sans-serif;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Gotu', sans-serif;
+}
+
+/* Serives section */
+#services{
+    margin: 34px;
+    display: flex;
+}
+
+#services .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 25px 6px;
+    border-radius: 28px;
+    background-color: rgb(166, 230, 221);
+    
+}
+
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+
+}
+
+#services .box p{
+    font-family: 'Dancing Script', cursive;
+
+}
+ 
+
+/* Clients Section  */
+#clients-section{
+   
+    height: 344px;
+
+}
+
+#clients-section::before{
+    content: "";
+    position: absolute;
+    background: url(images/bg.jpg) ;
+    height: 40%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-item{
+    padding: 40px;
+}
+#clients img{
+    height: 124px;
+
+}
+
+ /* Contact section  */
+#contact{
+    position: relative;
+}
+
+#contact::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    background: url(images/contact.jpg) no-repeat center center/cover;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Gotu', sans-serif;
+}
+
+#contact-box input, #contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 0.8rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+
+/* utility classes */
+
+.h-primary{  
+    font-family: 'Gotu', sans-serif;
+    font-size: 2.8rem;
+    padding: 9px 12px;
+}
+.h-secondary{
+    font-family: 'Gotu', sans-serif;
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.btn{
+    padding: 6px 20px ;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.2rem;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.centre{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
