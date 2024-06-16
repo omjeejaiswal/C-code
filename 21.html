@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {}
+
+        body {
+            font-family: 'Alkatra', cursive;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid red;
+            /* For center */
+            margin: 33px auto;
+
+
+        }
+
+        .item {
+            border: 3px solid grey;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(167, 167, 212);
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            width: 95%;
+
+        }
+        p,h3{
+            /* text-align: center;  text center mai aajaya 
+            text-align: left;
+            text-align: right; */
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam atque
+                quibusdam iste soluta laudantium? Deserunt sapiente assumenda minus aliquid debitis dolorem quia
+                expedita officia quo ipsa modi iste, praesentium id? Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Pariatur doloribus optio aliquam laudantium, provident perspiciatis necessitatibus quaerat
+                tempora, eaque sint dolor ea aut reiciendis nobis numquam repellat, quam aperiam cum? Error porro
+                suscipit maiores? </p>
+        </div>
+
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerpara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam atque
+                quibusdam iste soluta laudantium? Deserunt sapiente assumenda minus aliquid debitis dolorem quia
+                expedita officia quo ipsa modi iste, praesentium id? Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Magni eligendi tempora molestias eaque fugit, expedita sunt natus animi doloremque cumque quos
+                perspiciatis laboriosam, ducimus vero suscipit quis corporis corrupti aperiam provident nam nihil
+                blanditiis?</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
+                atque quibusdam iste soluta laudantium? Deserunt sapiente assumenda minus aliquid debitis dolorem quia
+                expedita officia quo ipsa modi iste, praesentium id? Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Aliquid praesentium blanditiis illo dolorem deserunt sapiente quam corporis, vel quisquam
+                doloribus soluta voluptatum, sunt quaerat ab eius accusantium ea voluptatem autem quo numquam molestiae.
+                Saepe?</p>
+        </div>
+
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationarypara" class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
+                atque quibusdam iste soluta laudantium? Deserunt sapiente assumenda minus aliquid debitis dolorem quia
+                expedita officia quo ipsa modi iste, praesentium id? Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Aliquid praesentium blanditiis illo dolorem deserunt sapiente quam corporis, vel quisquam
+                doloribus soluta voluptatum, sunt quaerat ab eius accusantium ea voluptatem autem quo numquam molestiae.
+                Saepe?</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
